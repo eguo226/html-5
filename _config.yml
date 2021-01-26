@@ -1,30 +1,3 @@
 theme: jekyll-theme-cayman
 title: Welcome to Eguo226's homepage!
 description: Please bookmark my page to check out on my page updates   
-<html>
-<body>
-
-<h1>Turn the light bulb on</h1>
-<p>Press light on to turn the light bulb on.</p>
-
-<script>
-function light(sw) {
-  var pic;
-  if (sw == 0) {
-    pic = "pic_bulboff.gif"
-  } else {
-    pic = "pic_bulbon.gif"
-  }
-  document.getElementById('myImage').src = pic;
-}
-</script>
-
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
-
-<p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
-</p>
-
-</body>
-</html>
