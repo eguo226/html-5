@@ -1,4 +1,11 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title>This is Ethan website.</title>
+<script> 
+function checkName(){alert("thats a cool name")}
+</script>
+</head>
 <body>
 
 <h1>Turn the light bulb on</h1>
@@ -22,13 +29,15 @@ function light(sw) {
 <button type="button" onclick="light(1)">Light On</button>
 <button type="button" onclick="light(0)">Light Off</button>
 </p>
-What is your name?<br>
-<input type="text"><br>
+What is your name?please press enter when you are done.<br>
+<input id="username" type="text" onchange="checkName()"><br>
 how old are you?<br>
 <input type="number"><br>
 what is your password(I promise not to steal)<br>
 <input type="password"><br>
 <h3> Do you play brawl stars?Choose one.</p>
-<input type="checkbox">yes <input type="checkbox">no
+<input type="checkbox">yes <input type="checkbox">no<br>
+what month is your birthday on
+<input type="month">
 <html>
 <body>
